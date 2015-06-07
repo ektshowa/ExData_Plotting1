@@ -25,7 +25,7 @@ with(household.subset, {
     plot(household.subset$new_date, household.subset$Global_reactive_power, type = "l", yaxt="n", xlab ="datetime", ylab = "Global_reactive_power")
     axis(side=2, at=c(0, 50, 100, 150, 200, 250), labels=c(0.0, 0.1, 0.2, 0.3, 0.4, 0.5))
 })
-
+dev.off()
 
 
 
